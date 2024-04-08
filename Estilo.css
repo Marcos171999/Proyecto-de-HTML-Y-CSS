@@ -1,0 +1,33 @@
+body{
+    background-color: rgb(7, 231, 145);
+    margin-top: 0%;
+}
+.Titulo{
+    background-color: blue;
+    text-align: center;
+    margin-top: 0%;
+}
+.Parrafo{
+    margin-top: -15%;
+    padding-left: 45%;
+}
+.imagen{
+    width: 250px;
+    height: 250px;
+    padding-left: 20%;
+}
+@media screen and (max-width: 660px) {
+    body{
+        margin-top: 0%;
+    }
+    .Titulo{
+        background-color: chartreuse;
+        position: static;
+        text-align: center;
+    }
+    .Parrafo{
+        padding-left: 15%;
+        margin-top: 0%;
+        width: 75%;
+    }
+}
